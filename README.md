@@ -68,5 +68,14 @@ A Graph RAG, or Retrieval-Augmented Generation, is a technique that uses a graph
 - AST and ASG can also be used to improve the efficiency of a Graph RAG by allowing it to more quickly and accurately retrieve relevant information from the graph.
     - Example: A Graph RAG that is trained on a corpus of code could use AST and ASG to index the graph based on the semantic structure of the code. This would allow the Graph RAG to more quickly and accurately retrieve information about the relationships between variables, functions, and types in the code.
 - AST and ASG can be used to improve the scalability of a Graph RAG by allowing it to handle larger and more complex codebases.
-    - Example: A Graph RAG that is trained on a corpus of code could use AST and ASG to automatically extract and index the graph based on the semantic structure of the code. This would allow the Graph RAG to handle larger and more complex codebases without requiring manual intervention.
+    - Example: A Graph RAG that is trained on a corpus of code could use AST and ASG to automatically 
+extract and index the graph based on the semantic structure of the code. This would allow the Graph RAG to handle larger and more complex codebases without requiring manual intervention.
+
+
+## AST
+<img width="589" alt="Screenshot 2024-07-12 at 15 11 24" src="https://github.com/user-attachments/assets/5f750bfa-c95a-4bb4-bb45-cbabdf3de52a">
+
+## ASG
+<img width="450" alt="Screenshot 2024-07-12 at 15 11 44" src="https://github.com/user-attachments/assets/f67db061-7fc3-44af-9094-81862dbbd875">
+
 
