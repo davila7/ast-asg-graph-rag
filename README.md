@@ -25,6 +25,19 @@ FunctionDef
           right: b
 ```
 
+## Visual representation of AST
+
+Code:
+```
+def foo(x):
+    y = x + 1
+    print(y)
+foo(5)
+```
+
+Image:
+
+<img width="589" alt="Screenshot 2024-07-12 at 15 11 24" src="https://github.com/user-attachments/assets/5f750bfa-c95a-4bb4-bb45-cbabdf3de52a">
 
 ## What is ASG?
 ASG, or Abstract Semantic Graph, is a directed graph representation of the abstract semantic structure of source code written in a programming language. Each node of the graph denotes a semantic entity, such as a variable, function, or type, and each edge denotes a relationship between these entities.
@@ -48,6 +61,20 @@ Variable: c
   Value: add(1, 2)
 ```
 
+## Visual representation of ASG
+Code:
+```
+def foo(x):
+    y = x + 1
+    print(y)
+foo(5)
+```
+Image:
+
+<img width="450" alt="Screenshot 2024-07-12 at 15 11 44" src="https://github.com/user-attachments/assets/f67db061-7fc3-44af-9094-81862dbbd875">
+
+
+
 # Diffeence betwenn AST and ASG
 - AST focuses on the syntactic structure of the code, while ASG focuses on the semantic structure.
     - Example: In AST, the expression `a + b` would be represented as a `BinOp` node with `a` and `b` as its children. In ASG, the expression `a + b` would be represented as a node that denotes an addition operation, with `a` and `b` as its inputs and the result as its output.
@@ -70,12 +97,5 @@ A Graph RAG, or Retrieval-Augmented Generation, is a technique that uses a graph
 - AST and ASG can be used to improve the scalability of a Graph RAG by allowing it to handle larger and more complex codebases.
     - Example: A Graph RAG that is trained on a corpus of code could use AST and ASG to automatically 
 extract and index the graph based on the semantic structure of the code. This would allow the Graph RAG to handle larger and more complex codebases without requiring manual intervention.
-
-
-## AST
-<img width="589" alt="Screenshot 2024-07-12 at 15 11 24" src="https://github.com/user-attachments/assets/5f750bfa-c95a-4bb4-bb45-cbabdf3de52a">
-
-## ASG
-<img width="450" alt="Screenshot 2024-07-12 at 15 11 44" src="https://github.com/user-attachments/assets/f67db061-7fc3-44af-9094-81862dbbd875">
 
 
